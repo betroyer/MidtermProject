@@ -1,0 +1,44 @@
+# Git / IDE
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
+
+# Dependencies & builds
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+/dist/
+/build/
+frontend/build/
+.cache/
+.ruff_cache/
+.emergent/
+
+# Environment & secrets
+.env
+.env.*
+frontend/.env
+backend/.env
+*credentials.json*
+*token.json*
+memory/test_credentials.md
+
+# Uploaded user content (keep folder)
+uploads/avatars/*
+!uploads/avatars/.gitkeep
+
+# Logs / Python
+*.log
+npm-debug.log*
+yarn-error.log*
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archives
+*.zip
+*.tar.gz
+*.pack
